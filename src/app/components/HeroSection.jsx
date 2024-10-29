@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const phoneNumber = "+905312928562"; // Değiştirin: Telefon numarası uluslararası formatta olmalıdır.
-  const message = "Merhaba bilgi almak istiyorum."; // Değiştirin: Mesajınızı buraya yazın.
+  const phoneNumber = "+905416072141";
+  const message = "Merhaba hukuki danışmanlık için bilgi almak istiyorum."; 
 
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
     message
@@ -21,20 +21,21 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-black mb-4 text-4xl sm:text-4xl lg:text-6xl lg:leading-normal font-extrabold">
+          <h1 className="text-black  text-3xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Uzman Psikolog
+            Avukat Nur Kahvecioğlu
             </span>
-            <br></br>
+          </h1>
+          <h1 className="text-black mb-4 text-3xl sm:text-3xl lg:text-4xl lg:leading-normal ">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Nur Kahvecioğlu
+            Manavgat/Antalya Avukat
             </span>
           </h1>
           <p className="text-[#000] text-base sm:text-lg mb-6 lg:text-xl max-w-[700px]">
-            Çocuk Ergen ve Yetişkin Psikolojik Danışmanlık Merkezi
+            Kahvecioğlu Hukuk ve Danışmanlık
           </p>
           <p className="text-[#000] text-base sm:text-lg mb-6 lg:text-xl max-w-[700px]">
-           📍Tahılpazarı Mahallesi 474. Sokak No 2 Kat 5 Daire 10 Muratpaşa/Antalya
+          ⚖️ Aydınevler Mah. Manavgat/Antalya
           </p>
           <div>
             <Link

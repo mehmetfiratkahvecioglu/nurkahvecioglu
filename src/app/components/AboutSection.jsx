@@ -57,11 +57,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black mb-4">Hizmetler</h2>
           <p className="text-base lg:text-lg">
-          Bireysel Terapi <br></br>
-Oyun Terapisi <br></br>
-Aile Danışmanlığı <br></br>
-Moxo Dikkat Testi <br></br>
-Yetişkin Testleri
+        Hukuk Danışmanlığı <br></br>
+    Arabuluculuk<br></br>
+    Boşanma Davaları <br></br>
+    Arsa Davaları <br></br>
+    Ceza Davaları <br></br>
           </p>
         </div>
       </div>
