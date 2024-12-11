@@ -53,15 +53,16 @@ const AboutSection = () => {
   return (
     <section className="text-black" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/nur2.jpeg" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-black mb-4">Hizmetler</h2>
           <p className="text-base lg:text-lg">
         Hukuk Danışmanlığı <br></br>
-    Arabuluculuk<br></br>
-    Boşanma Davaları <br></br>
-    Arsa Davaları <br></br>
+        Boşanma Davaları <br></br>
+    Arabuluculuk Başvuruları<br></br>
+    Taşınmaz Davaları <br></br>
     Ceza Davaları <br></br>
+    İcra İşlemleri <br></br>
+    İş Davaları <br></br>
           </p>
         </div>
       </div>
